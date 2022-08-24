@@ -3,12 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/abuabu"
     android:orientation="vertical">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="180dp"
-        android:background="@drawable/background_tugas_dua">
+        android:background="@drawable/background_shape_layout_dua">
 
         <TextView
             android:id="@+id/textView"
@@ -147,25 +148,48 @@
             android:text="LOGOUT"
             android:textSize="20sp"
             android:padding="10dp"
-            android:backgroundTint="@color/blue_sea"/>
+            android:background="@drawable/btn_rounded"/>
     </androidx.cardview.widget.CardView>
 
-    <androidx.cardview.widget.CardView
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/btn_rounded_payment"
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_baseline_payments_24"
+            android:layout_gravity="center_vertical|center"
+            />
+    </FrameLayout>
+
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginTop="55dp"
-        app:cardCornerRadius="30dp"
-        android:elevation="15dp">
+        android:layout_marginTop="8dp"
+        android:background="@color/white">
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="LOGOUT"
-            android:textSize="20sp"
-            android:padding="10dp"
-            android:backgroundTint="@color/blue_sea"/>
-    </androidx.cardview.widget.CardView>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/ic_baseline_home_24"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_baseline_account_circle_24"
+            android:layout_marginLeft="320dp"/>
+
+
+    </RelativeLayout>
 
 </LinearLayout>

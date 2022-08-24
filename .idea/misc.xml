@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/A/AndroidStudioProjects/TopicEmpat/app/src/main/res/drawable/background_shape_layout_dua.xml" value="0.1685" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/TopicEmpat/app/src/main/res/drawable/background_shape_layout_satu.xml" value="0.1685" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/TopicEmpat/app/src/main/res/drawable/btn_rounded.xml" value="0.1685" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/TopicEmpat/app/src/main/res/drawable/btn_rounded_payment.xml" value="0.1685" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/TopicEmpat/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1685" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/TopicEmpat/app/src/main/res/drawable/ic_baseline_payments_24.xml" value="0.1685" />
         <entry key="..\:/Users/A/AndroidStudioProjects/TopicEmpat/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/A/AndroidStudioProjects/TopicEmpat/app/src/main/res/layout/constraint_layout.xml" value="0.25" />
         <entry key="..\:/Users/A/AndroidStudioProjects/TopicEmpat/app/src/main/res/layout/kuis.xml" value="0.25" />
@@ -11,6 +17,7 @@
         <entry key="..\:/Users/A/AndroidStudioProjects/TopicEmpat/app/src/main/res/layout/linear_horizontal.xml" value="0.25" />
         <entry key="..\:/Users/A/AndroidStudioProjects/TopicEmpat/app/src/main/res/layout/relative_layout.xml" value="0.25" />
         <entry key="..\:/Users/A/AndroidStudioProjects/TopicEmpat/app/src/main/res/layout/table_layout.xml" value="0.25" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/TopicEmpat/app/src/main/res/layout/tugas1.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/A/AndroidStudioProjects/TopicEmpat/app/src/main/res/layout/tugas2.xml" value="0.22" />
       </map>
     </option>
