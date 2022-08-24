@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_satu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:text="1"/>
+
+    <Button
+        android:id="@+id/btn_dua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:layout_below="@+id/btn_satu"
+        android:textSize="60sp"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:id="@+id/btn_tiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:layout_below="@+id/btn_dua"
+        android:textSize="60sp"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:id="@+id/btn_empat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:layout_below="@+id/btn_tiga"
+        android:layout_centerHorizontal="true"
+        android:textSize="60sp"/>
+
+    <Button
+        android:id="@+id/btn_lima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:layout_centerInParent="true"
+        android:textSize="60sp"/>
+
+    <Button
+        android:id="@+id/btn_enam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:layout_below="@id/btn_lima"
+        android:layout_centerHorizontal="true"
+        android:textSize="60sp"/>
+
+    <Button
+        android:id="@+id/btn_sepuluh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:layout_below="@id/btn_enam"
+        android:textSize="60sp"/>
+
+    <Button
+        android:id="@+id/btn_tujuh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="60sp"/>
+
+    <Button
+        android:id="@+id/btn_sembilan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:textSize="60sp"/>
+
+    <Button
+        android:id="@+id/btn_delapan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="60sp"/>
+
+</RelativeLayout>
